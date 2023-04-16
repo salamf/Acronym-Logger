@@ -1,0 +1,30 @@
+h2 {
+    font-family: 'Noto Sans', 'Verdana', 'Arial', sans-serif;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    /* margin-top: 2px; */
+    margin-left: 20px;
+    line-height: 1.1;
+}
+
+.NavBar {
+    height: 65px;
+    padding: 0px 65px;
+    background-color: #003366 !important;
+}
+
+.info {
+    width: auto;
+    padding-top: 15px;
+}
+
+.logo {
+    margin-top: 5px;
+    max-height: 45px;
+    display: inline-block;
+}
+
+.title {
+    margin-top: 20px;
+}

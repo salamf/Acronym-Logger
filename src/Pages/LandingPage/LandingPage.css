@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2.074em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.landing-page-cont {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.btn-search {
+    margin-right: 0.5rem;
+}
+
+.btn-new {
+    margin-left: 0.5rem;
+}
+
+.input-box {
+    display: block;
+    height: 2.3rem;
+    /* border-radius: 25px; */
+    border-radius: 7px;
+    width: 30rem;
+    border: solid 0.6px;
+}
+
+.acronym-header {
+    margin-top: 3rem;
+}

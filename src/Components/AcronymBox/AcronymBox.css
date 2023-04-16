@@ -1,0 +1,48 @@
+p {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    width: 30rem;
+    border-bottom: solid 0.1px;
+    display: inline-block;
+}
+
+
+.abbr-text-cont {
+    text-align: left;
+}
+
+.meaning-text-cont {
+    text-align: middle;
+}
+
+.delete-btn-cont {
+    text-align: right;
+}
+
+.abbr {
+    font-weight: 700;
+}
+
+.trash-icon {
+    color: black;
+}
+
+.trash-icon:hover {
+    color: #3498db;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: black;
+    border: 0px;
+    background-color: transparent;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+.acronym-row {
+    padding: 2rem 1rem;
+}
