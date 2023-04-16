@@ -1,0 +1,42 @@
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 4px;
+    margin: 0 2px;
+    font-size: 0.813rem;
+    font-family: 'Noto Sans', 'Verdana', 'Arial', sans-serif;
+}
+
+.footer-stage {
+    height: 75px;
+}
+
+.footer {
+    /* display: table; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    /* height: 75px; */
+    padding: 0px 65px;
+    background-color: #003366 !important;
+    border-top: #FCBA19 solid 2px;
+}
+
+.options {
+    /* display: inline-block; */
+    vertical-align: middle;
+    margin-top: 14px;
+    /* white-space: nowrap; */
+    min-width: 200px;
+}
+
+.options {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.option {
+    padding: 0 9px;
+}

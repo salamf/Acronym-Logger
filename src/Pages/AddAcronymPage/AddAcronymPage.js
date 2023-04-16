@@ -8,6 +8,9 @@ import "./AddAcronymPage.css"
 import Button from 'react-bootstrap/Button';
 
 function AddAcronymPage() {
+    const maxAcronymLength = 10;
+    const maxMeaningLength = 60;
+
     const [acronymDetails, setAcronymDetails] = useState({
         abbr: "",
         meaning: ""
@@ -38,9 +41,9 @@ function AddAcronymPage() {
         <div className="acronym-page-cont">
             <h1>New Acronym</h1>
             <form onSubmit={handleSubmit}>
-                <input className="input-box top" type="text" placeholder="Enter Acronym" name='abbr' value={acronymDetails.abbr} onChange={handleChange} />
+                <input className="input-box top" type="text" placeholder="Enter Acronym" name='abbr' value={acronymDetails.abbr} onChange={handleChange} maxLength={maxAcronymLength} />
 
-                <input className="input-box bottom" type="text" placeholder="Enter Definition" name='meaning' value={acronymDetails.meaning} onChange={handleChange} />
+                <textarea className="input-box bottom" type="text" placeholder="Enter Definition" name='meaning' value={acronymDetails.meaning} onChange={handleChange} maxLength={maxMeaningLength} />
 
                 <Button disabled={!acronymDetails.abbr.length || !acronymDetails.meaning.length} type='submit' className='btn btn-new' variant="outline-primary">New Acronym</Button>
 

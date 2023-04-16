@@ -8,23 +8,40 @@ h2 {
     line-height: 1.1;
 }
 
-.NavBar {
-    height: 65px;
+.nav-bar-stage {
+    height: 75px;
+
+}
+
+.nav-bar {
+    /* display: table; */
+    position: fixed;
+    min-width: 100%;
+    height: 75px;
     padding: 0px 65px;
     background-color: #003366 !important;
+    border-bottom: #FCBA19 solid 2px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .info {
-    width: auto;
-    padding-top: 15px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    margin-top: 14px;
+    /* white-space: nowrap; */
+    min-width: 200px;
 }
 
 .logo {
-    margin-top: 5px;
     max-height: 45px;
     display: inline-block;
+    /* margin-top: 10px; */
 }
 
 .title {
-    margin-top: 20px;
+    vertical-align: middle;
+    margin: auto 0;
+    padding-left: 5px;
+    /* margin: auto 0; */
+    /* display: inline-block */
 }

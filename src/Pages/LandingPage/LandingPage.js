@@ -9,6 +9,7 @@ import './LandingPage.css';
 import NavBar from "../../Components/NavBar/NavBar";
 import Button from 'react-bootstrap/Button';
 import AcronymBox from "../../Components/AcronymBox/AcronymBox";
+import Footer from "../../Components/Footer/Footer";
 
 function LandingPage() {
     const navigate = useNavigate();
@@ -90,14 +91,15 @@ function LandingPage() {
         <div className='main'>
             <NavBar />
             <div className='landing-page-cont'>
+                <div className="heading">
+                    <h1>Welcome!</h1>
 
-                <h1>Welcome!</h1>
+                    <input className="input-box" placeholder='Search Acronyms' name="search" value={searchInput} onChange={handleSearchChange} />
 
-                <input className="input-box" placeholder='Search Acronyms' name="search" value={searchInput} onChange={handleSearchChange} />
+                    <Button className='btn btn-search' variant="outline-primary" onClick={handleSearch}>Search</Button>
 
-                <Button className='btn btn-search' variant="outline-primary" onClick={handleSearch}>Search</Button>
-
-                <Button className='btn btn-new' variant="outline-primary" onClick={newAcronym}>New Acronym</Button>
+                    <Button className='btn btn-new' variant="outline-primary" onClick={newAcronym}>New Acronym</Button>
+                </div>
 
                 <h3 className="acronym-header">Acronyms</h3>
 
@@ -106,9 +108,8 @@ function LandingPage() {
                         <AcronymBox key={i} id={i} abbr={acronym.abbr} meaning={acronym.meaning} handleDelete={e => handleDelete(e, acronym.abbr)} />
                     </div>
                 })}
-
-                {/* <AcronymDisplay searchText={searchInput} /> */}
             </div>
+            <Footer />
         </div>
     );
 }

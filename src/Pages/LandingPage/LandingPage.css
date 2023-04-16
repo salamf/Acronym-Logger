@@ -4,9 +4,15 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.heading {
+    background-color: #f1f1f1;
+    border-bottom: solid #FCBA19 1px;
+    padding: 60px 65px
+}
+
 .landing-page-cont {
     text-align: center;
-    padding: 5rem 2rem;
+    padding: 0rem 0rem;
 }
 
 .btn {
