@@ -4,11 +4,9 @@
 
 1. Ensure this repository is cloned into a local directory (git clone https://github.com/salamf/Acronym-Logger.git)
 2. `cd` to the project directory
-3. In the project directory, you can run the folowing
+3. In the project directory, you can run `npm start` to start the webapp
 
-### `npm start`
-
-Runs the app in the development mode.
+This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Learn More
