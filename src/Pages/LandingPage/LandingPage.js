@@ -137,7 +137,7 @@ function LandingPage() {
 
                 <h3 className="acronym-header">Acronyms</h3>
 
-                {notFoundFlag ? <p>No Acronyms Found</p> : filteredAcronyms.map((acronym, i) => {
+                {notFoundFlag || !filteredAcronyms.length ? <p>No Acronyms Found</p> : filteredAcronyms.map((acronym, i) => {
                     return <div key={i}>
                         <AcronymBox id={i} totLen={filteredAcronyms.length} abbr={acronym.abbr} meaning={acronym.meaning} handleDelete={e => handleDelete(e, acronym.abbr)} />
                     </div>
