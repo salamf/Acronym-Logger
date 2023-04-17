@@ -2,9 +2,9 @@
 
 ## Running AcronLog
 
-Ensure this repository is cloned into a local directory (git clone https://github.com/salamf/Acronym-Logger.git)
-
-Then, in the project directory, you can run the folowing
+1. Ensure this repository is cloned into a local directory (git clone https://github.com/salamf/Acronym-Logger.git)
+2. `cd` to the project directory
+3. In the project directory, you can run the folowing
 
 ### `npm start`
 
