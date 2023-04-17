@@ -2,41 +2,19 @@
 
 ## Running AcronLog
 
-Ensure this repo is cloned into a local repository: 
+Ensure this repository is cloned into a local directory (git clone https://github.com/salamf/Acronym-Logger.git)
 
-Then, in the project directory, you can run:
+Then, in the project directory, you can run the folowing
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### What is it?
+AcronLog is a convenient web application that enables users to create, view, and manage acronym definitions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### How it works
+Users can create acronyms by specifying a maximum length of 10 characters for the acronym and 60 characters for its definition. The application ensures that empty acronyms cannot be created, and all created acronyms are stored in a database for easy retrieval. Users can search for an acronym and view its definition. If the search yields no result, the application displays "Not found." Additionally, users can delete an acronym, and the application removes it from the database. AcronLog is an easy-to-use web application that streamlines the process of managing acronyms.
