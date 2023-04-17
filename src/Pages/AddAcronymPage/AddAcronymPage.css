@@ -13,7 +13,7 @@ h1 {
 
 .acronym-page-cont {
     text-align: center;
-    padding: 5rem 2rem;
+    padding: 60px 65px
 }
 
 .acronym-box {
@@ -32,14 +32,7 @@ h1 {
     margin-right: 0.5rem;
 }
 
-.input-box {
-    display: block;
-    margin: auto;
-    height: 2.5rem;
-    /* border-radius: 25px; */
-    border-radius: 7px;
-    width: 20rem;
-}
+
 
 .top {
     margin-bottom: 1rem;
@@ -47,6 +40,4 @@ h1 {
 
 .bottom {
     height: 7rem;
-    padding-top: 4.3%;
-    padding-bottom: 4.3%
 }

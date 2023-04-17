@@ -1,7 +1,13 @@
 h1 {
     font-size: 2.074em;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.main {
+    padding-bottom: 60px;
+    /* text-align: center; */
 }
 
 .heading {
@@ -27,15 +33,17 @@ h1 {
     margin-left: 0.5rem;
 }
 
-.input-box {
-    display: block;
-    height: 2.3rem;
-    /* border-radius: 25px; */
-    border-radius: 7px;
-    width: 30rem;
-    border: solid 0.6px;
-}
-
 .acronym-header {
     margin-top: 3rem;
+}
+
+.input-box {
+    display: block;
+    margin: auto;
+    height: 2.5rem;
+    /* border-radius: 25px; */
+    border-radius: 7px;
+    width: 20rem;
+    padding-left: 5px;
+    border: solid 0.6px rgb(214, 214, 214);
 }
