@@ -111,7 +111,6 @@ function LandingPage() {
 
         const querySnapshot = await getDocs(q);
         querySnapshot.forEach(async (acronym) => {
-            // doc.data() is never undefined for query doc snapshots
             await deleteDoc(doc(db, "acronyms", acronym.id));
         });
 
@@ -140,7 +139,7 @@ function LandingPage() {
 
                 {notFoundFlag ? <p>No Acronyms Found</p> : filteredAcronyms.map((acronym, i) => {
                     return <div key={i}>
-                        <AcronymBox id={i} abbr={acronym.abbr} meaning={acronym.meaning} handleDelete={e => handleDelete(e, acronym.abbr)} />
+                        <AcronymBox id={i} totLen={filteredAcronyms.length} abbr={acronym.abbr} meaning={acronym.meaning} handleDelete={e => handleDelete(e, acronym.abbr)} />
                     </div>
                 })}
             </div>

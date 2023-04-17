@@ -7,9 +7,8 @@ import { BsTrash } from 'react-icons/bs';
 import "./AcronymBox.css"
 
 function AcronymBox(props) {
-
     return (
-        <div className="container">
+        <div className="container" style={props.id == props.totLen - 1 ? { "borderBottom": "0px" } : null}>
             <Row className="acronym-row align-items-center">
                 <Col className="col abbr-text-cont" xs={3}>
                     <p className="abbr">{props.abbr}</p>
