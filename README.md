@@ -2,7 +2,7 @@
 
 ## Running AcronLog
 
-1. Ensure that node.js is installed
+1. Ensure that node.js is installed (https://nodejs.org/en)
 2. Enure that and this repository is cloned into a local directory (`git clone https://github.com/salamf/Acronym-Logger.git`)
 2. `cd` to the project directory (`cd Acronym-Logger`)
 3. In the project directory, run `npm install` or `npm i` to install dependencies
