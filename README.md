@@ -2,10 +2,11 @@
 
 ## Running AcronLog
 
-1. Ensure that node.js is installed and that this repository is cloned into a local directory (git clone https://github.com/salamf/Acronym-Logger.git)
-2. `cd` to the project directory
-3. Run `npm install` or `npm i` to install dependencies
-3. In the project directory, you can run `npm start` to start the webapp
+1. Ensure that node.js is installed
+2. Enure that and this repository is cloned into a local directory (`git clone https://github.com/salamf/Acronym-Logger.git`)
+2. `cd` to the project directory (`cd Acronym-Logger`)
+3. In the project directory, run `npm install` or `npm i` to install dependencies
+3. After that you can run `npm start` to start the webapp
 
 This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
