@@ -29,4 +29,4 @@ AcronLog is a convenient web application that enables users to create, view, and
 
 ### Main Dependencies
 - `firebase` (Cloud Firestore): NoSQL Database - used to store acronyms
-- `react-bootstrap`: Premade and styled react components - used for buttons and grids
+- `react-bootstrap` Premade and styled react components - used for buttons and grids
