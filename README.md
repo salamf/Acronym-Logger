@@ -4,7 +4,7 @@
 
 1. Ensure that node.js is installed: https://nodejs.org/en
 2. Clone this repository into a local directory: `git clone https://github.com/salamf/Acronym-Logger.git`
-2. `cd` to the project directory: `cd Acronym-Logger`
+2. `cd` into the project directory: `cd Acronym-Logger`
 3. Install dependencies: `npm install` or `npm i`
 3. Start the webapp: `npm start`
 
