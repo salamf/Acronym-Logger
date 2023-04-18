@@ -27,5 +27,6 @@ AcronLog is a convenient web application that enables users to create, view, and
 - Users can search for an acronym and view its definition. If the search yields no result, the application displays "Not found". 
 - Users can delete an acronym, and the application removes it from the database.
 
-### Dependencies
-- To Be Added
+### Main Dependencies
+- `firebase` (Cloud Firestore): NoSQL Database - used to store acronyms
+- `react-bootstrap`: Premade and styled react components - used for buttons and grids
