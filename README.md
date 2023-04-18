@@ -2,11 +2,14 @@
 
 ## Running AcronLog
 
+### Installation
 1. Ensure that node.js is installed: https://nodejs.org/en
 2. Clone this repository into a local directory: `git clone https://github.com/salamf/Acronym-Logger.git`
-2. `cd` into the project directory: `cd Acronym-Logger`
-3. Install dependencies: `npm install` or `npm i`
-3. Start the webapp: `npm start`
+3. `cd` into the project directory: `cd Acronym-Logger`
+4. Install dependencies: `npm install` or `npm i`
+
+### Start
+1. Start the webapp: `npm start`
 
 This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -22,4 +25,7 @@ AcronLog is a convenient web application that enables users to create, view, and
 - All created acronyms are stored in a database for easy retrieval. 
 - Stored acronyms are displayed in alphabetical order. 
 - Users can search for an acronym and view its definition. If the search yields no result, the application displays "Not found". 
-- Users can delete an acronym, and the application removes it from the database. 
+- Users can delete an acronym, and the application removes it from the database.
+
+### Dependencies
+- To Be Added
