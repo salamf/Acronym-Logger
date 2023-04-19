@@ -6,7 +6,9 @@ h1 {
 }
 
 .main {
-    padding-bottom: 3rem;
+    position: relative;
+    min-height: 100vh;
+    /* padding-bottom: 3rem; */
     /* text-align: center; */
 }
 
@@ -19,6 +21,7 @@ h1 {
 .landing-page-cont {
     text-align: center;
     padding: 0rem 0rem;
+    padding-bottom: 1.5rem;
 }
 
 .btn {
